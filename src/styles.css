@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.editor, .form {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
+
+.editor {
+  background: #ffffff;
+  color: white;
+
+}
+
+.form {
+  background: #f7f7f7;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  background: #eef;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,20 @@
+.App {
+  text-align: center;}
+/* This will hide the scrollbar but allow scrolling when content exceeds the container */
+.editor {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+}
+
+.editor::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, etc.) */
+}
+
+/* Ensure the editor fits within the screen */
+@media (max-width: 640px) {
+  .editor {
+    height: auto;  /* Make height auto on mobile */
+  }
+}
