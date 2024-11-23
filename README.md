@@ -37,8 +37,6 @@ Sample JSON Schema :
       "type": "text",
       "label": "Full Name",
       "required": true,
-      "minLength": "3",
-      "maxLength": "20",
       "placeholder": "Enter your full name"
     },
     {
@@ -58,26 +56,10 @@ Sample JSON Schema :
       "label": "Company Size",
       "required": true,
       "options": [
-        {
-          "value": "",
-          "label": "Select"
-        },
-        {
-          "value": "1-50",
-          "label": "1-50 employees"
-        },
-        {
-          "value": "51-200",
-          "label": "51-200 employees"
-        },
-        {
-          "value": "201-1000",
-          "label": "201-1000 employees"
-        },
-        {
-          "value": "1000+",
-          "label": "1000+ employees"
-        }
+        { "value": "1-50", "label": "1-50 employees" },
+        { "value": "51-200", "label": "51-200 employees" },
+        { "value": "201-1000", "label": "201-1000 employees" },
+        { "value": "1000+", "label": "1000+ employees" }
       ]
     },
     {
@@ -86,26 +68,11 @@ Sample JSON Schema :
       "label": "Industry",
       "required": true,
       "options": [
-        {
-          "value": "tech",
-          "label": "Technology"
-        },
-        {
-          "value": "healthcare",
-          "label": "Healthcare"
-        },
-        {
-          "value": "finance",
-          "label": "Finance"
-        },
-        {
-          "value": "retail",
-          "label": "Retail"
-        },
-        {
-          "value": "other",
-          "label": "Other"
-        }
+        { "value": "tech", "label": "Technology" },
+        { "value": "healthcare", "label": "Healthcare" },
+        { "value": "finance", "label": "Finance" },
+        { "value": "retail", "label": "Retail" },
+        { "value": "other", "label": "Other" }
       ]
     },
     {
@@ -114,26 +81,10 @@ Sample JSON Schema :
       "label": "Project Timeline",
       "required": true,
       "options": [
-        {
-          "value": "",
-          "label": "Select"
-        },
-        {
-          "value": "immediate",
-          "label": "Immediate (within 1 month)"
-        },
-        {
-          "value": "short",
-          "label": "Short-term (1-3 months)"
-        },
-        {
-          "value": "medium",
-          "label": "Medium-term (3-6 months)"
-        },
-        {
-          "value": "long",
-          "label": "Long-term (6+ months)"
-        }
+        { "value": "immediate", "label": "Immediate (within 1 month)" },
+        { "value": "short", "label": "Short-term (1-3 months)" },
+        { "value": "medium", "label": "Medium-term (3-6 months)" },
+        { "value": "long", "label": "Long-term (6+ months)" }
       ]
     },
     {
@@ -145,4 +96,5 @@ Sample JSON Schema :
     }
   ]
 }
+
 
