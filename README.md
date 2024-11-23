@@ -16,6 +16,25 @@ A split-screen interface with:
 - Updates in real-time as JSON is edited
 - Responsive form layout
 - Proper error states and validation.
+
+Technical Requirements:
+   
+- Use TypeScript for type safety
+- Create proper interfaces for the JSON schema
+- Handle JSON validation gracefully
+- Real-time form generation and validation
+- Proper error boundaries for both editor and form
+- Mobile-responsive layout (stack editor and preview on smaller screens)
+
+Form Features
+
+The generated form will:
+- Support all field types from the schema
+- Show proper validation messages
+- Have loading states where appropriate
+- Submit data to console.log()
+- Show success message after submission
+- Be styled consistently using Tailwind CSS
   
 Technical Stack :
 
